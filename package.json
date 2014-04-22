@@ -1,0 +1,16 @@
+{
+  "name": "caniuse(offline)",
+  "description": "Instantly check compatibility of HTML5, CSS3, SVG",
+  "version": "0.1.0",
+  "author": {
+    "name": "leecade",
+    "email": "leecade@163.com"
+  },
+  "main": "index.js",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}

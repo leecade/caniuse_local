@@ -1,0 +1,13 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Caniuse",
+                "id": "caniuse_cmd",
+                "command": "caniuse"
+            }
+        ]
+    }
+]
