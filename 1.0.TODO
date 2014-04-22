@@ -2,10 +2,10 @@
 Feature:
  ✔ 优先完整匹配, 更健壮的模糊匹配 @done (14-04-22)
     canvas* 优先 / css-canvas
- ☐ css-prop 和 caniuse api 适配
+ ✔ css-prop 和 caniuse api 适配 @done (14-04-23)
     允许通过完整的 css-prop 进行查询
  ✔ windows hot-key binds to `ctrl+alt+c` @done (14-04-23)
 
 Sublime:
-  ☐ 整合 sublimeJs
+  ✔ 整合 v8 @done (14-04-23)
   ☐ publish
