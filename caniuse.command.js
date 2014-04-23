@@ -1,8 +1,5 @@
-// rem
-
 var caniuseData = require("./data/data.js");
 var adapterQueryData = require("./data/adapter.js");
-
 
 module.exports = function(view, edit){
 	// view.insert(edit, 0, "HelloWorld");
@@ -42,11 +39,9 @@ module.exports = function(view, edit){
         var keys = Object.keys(data).sort(function (a, b) {
             return +a > +b;
         });
-        // console.log(keys);
+
         for (var i = 0; i < keys.length; i++) {
-            // "y x"
             (~data[keys[i]].indexOf("a") || ~data[keys[i]].indexOf("y")) && ret.push(keys[i]);
-            // data[keys[i]] == "y" && ret.push(keys[i]);
         };
         var begin = ret.shift();
         var end = ret.pop();
@@ -66,7 +61,7 @@ module.exports = function(view, edit){
             timer && clearTimeout(timer);
             (function set() {
                 view.set_status("caniuse", content);
-                !timeout && setTimeout(set, 300)
+                !timeout && setTimeout(set, 200)
             })();
             timer = setTimeout(function() {
                 view.erase_status("caniuse");
@@ -74,22 +69,6 @@ module.exports = function(view, edit){
             }, 15000);
         }
     }();
-
-    function showStatus(content) {
-        var timeout = false;
-
-        view.erase_status("caniuse");
-
-        (function set() {
-            view.set_status("caniuse", content);
-            !timeout && setTimeout(set, 250)
-        })();
-        
-        setTimeout(function() {
-            view.erase_status("caniuse");
-            timeout = true;
-        }, 15000);
-    }
 
     function adapterQuery(query, data) {
         if(adapterQueryData[query]) return adapterQueryData[query];
@@ -112,14 +91,5 @@ module.exports = function(view, edit){
 
     var query = adapterQuery(text, data);
 
-    // console.log(query);
-
     if(query && data[query]) showStatus(data[query].title + ": " + getResult(data[query].stats));
-
-
-    // if(data[text]) return showStatus(text + ": " + getResult(data[text].stats));
-
-    // for(var key in data) {
-    //     if(~key.indexOf(text)) return showStatus(key + ": " + getResult(data[key].stats));
-    // }
 }
