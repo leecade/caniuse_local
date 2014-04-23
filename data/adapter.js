@@ -139,6 +139,13 @@ module.exports = {
     "rotate3d": "transforms3d",
     "matrix3d": "transforms3d",
     "translate3d": "transforms3d",
+    "preserve-3d": "transforms3d",
+    "perspective": "transforms3d",
+    "-webkit-perspective": "transforms3d",
+    "-moz-perspective": "transforms3d",
+    "perspective-origin": "transforms3d",
+    "-webkit-perspective-origin": "transforms3d",
+    "-moz-perspective-origin": "transforms3d",
 
     "flex": "flexbox",
     "-mz-flex": "flexbox",
@@ -325,9 +332,7 @@ module.exports = {
 
     "matches": "matchesselector",
 
-    "-webkit-fullscreen": "fullscreen",
-    "-moz-fullscreen": "fullscreen",
-    "-ms-fullscreen": "fullscreen",
+    "fullScreen": "fullscreen",
 
     "MessageChannel": "channel-messaging",
 
