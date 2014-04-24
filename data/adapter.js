@@ -49,7 +49,7 @@ module.exports = {
     "rgba": "css3-colors",
     "hsla": "css3-colors",
 
-    "getComputedStyle": "getcomputedstyle",
+    "getcomputedstyle": "getcomputedstyle",
 
     "background-clip": "background-img-opts",
     "background-origin": "background-img-opts",
@@ -63,17 +63,17 @@ module.exports = {
     "-webkit-transform": "transforms2d",
     "-moz-transform": "transforms2d",
     "translate": "transforms2d",
-    "translateX": "transforms2d",
-    "translateY": "transforms2d",
+    "translatex": "transforms2d",
+    "translatey": "transforms2d",
     "rotation": "transforms2d",
     "rotate": "transforms2d",
     "scale": "transforms2d",
-    "scaleX": "transforms2d",
-    "scaleY": "transforms2d",
+    "scalex": "transforms2d",
+    "scaley": "transforms2d",
     "matrix": "transforms2d",
     "skew": "transforms2d",
-    "skewX": "transforms2d",
-    "skewY": "transforms2d",
+    "skewx": "transforms2d",
+    "skewy": "transforms2d",
 
     "rem": "rem",
 
@@ -117,8 +117,8 @@ module.exports = {
     "animation-iteration-count": "css-animation",
     "animation-play-state": "css-animation",
     "animation-timing-function": "css-animation",
-    "CSSKeyframeRule": "css-animation",
-    "CSSKeyframesRule": "css-animation",
+    "csskeyframerule": "css-animation",
+    "csskeyframesrule": "css-animation",
     "@-webkit-keyframes": "css-animation",
     "-webkit-animation": "css-animation",
     "-webkit-animation-name": "css-animation",
@@ -129,8 +129,8 @@ module.exports = {
     "-webkit-animation-iteration-count": "css-animation",
     "-webkit-animation-play-state": "css-animation",
     "-webkit-animation-timing-function": "css-animation",
-    "-webkit-CSSKeyframeRule": "css-animation",
-    "-webkit-CSSKeyframesRule": "css-animation",
+    "-webkit-csskeyframerule": "css-animation",
+    "-webkit-csskeyframesrule": "css-animation",
 
     "repeating-linear-gradient": "css-repeating-gradients",
     "-webkit-repeating-linear-gradient": "css-repeating-gradients",
@@ -214,11 +214,10 @@ module.exports = {
 
     "data": "dataset",
 
-    "CONTENTEDITABLE": "contenteditable",
-    "contentEditable": "contenteditable",
-    "isContentEditable": "contenteditable",
+    "contenteditable": "contenteditable",
+    "iscontenteditable": "contenteditable",
 
-    "getElementsByClassName": "getelementsbyclassname",
+    "getelementsbyclassname": "getelementsbyclassname",
 
     "footer": "html5semantic",
     "nav": "html5semantic",
@@ -236,17 +235,17 @@ module.exports = {
     "placeholder": "input-placeholder",
 
 
-    "classList": "classlist",
+    "classlist": "classlist",
 
     "async": "script-async",
 
     "range": "input-range",
 
-    "pushState": "history",
-    "replaceState": "history",
+    "pushstate": "history",
+    "replacestate": "history",
 
-    "dataTransfer": "dragndrop",
-    "initDragEvent": "dragndrop",
+    "datatransfer": "dragndrop",
+    "initdragevent": "dragndrop",
     "drag": "dragndrop",
     "dragend": "dragndrop",
     "dragleave": "dragndrop",
@@ -262,106 +261,102 @@ module.exports = {
 
     "experimental-webgl": "webgl",
 
-    "getUserMedia": "stream",
+    "getusermedia": "stream",
 
-    "createShadowRoot": "shadowdom",
+    "createshadowroot": "shadowdom",
 
-    "createShadowRoot": "style-scoped",
+    "createshadowroot": "style-scoped",
 
 
-    "JSON": "json",
+    "json": "json",
     "parse": "json",
     "stringify": "json",
 
-    "postMessage": "x-doc-messaging",
+    "postmessage": "x-doc-messaging",
 
-    "localStorage": "namevalue-storage",
+    "localstorage": "namevalue-storage",
 
-    "Access-Control-Allow-Origin": "cors",
+    "access-control-allow-origin": "cors",
 
-    "Access-Control-Allow-Origin": "cors",
+    "geolocation": "geolocation",
+    "getcurrentposition": "geolocation",
+    "clearwatch": "geolocation",
 
-    "Geolocation": "geolocation",
-    "getCurrentPosition": "geolocation",
-    "clearWatch": "geolocation",
+    "xmlhttprequest": "xhr2",
 
-    "clearWatch": "geolocation",
+    "arraybuffer": "typedarrays",
+    "arraybufferview": "typedarrays",
+    "dataview": "typedarrays",
+    "stringview": "typedarrays",
+    "readasarraybuffer": "typedarrays",
 
-    "XMLHttpRequest": "xhr2",
+    "file": "fileapi",
+    "lastmodifieddate": "fileapi",
+    "filename": "fileapi",
+    "filesize": "fileapi",
+    "getasbinary": "fileapi",
+    "getasdataurl": "fileapi",
+    "getastext": "fileapi",
 
-    "ArrayBuffer": "typedarrays",
-    "ArrayBufferView": "typedarrays",
-    "DataView": "typedarrays",
-    "StringView": "typedarrays",
-    "readAsArrayBuffer": "typedarrays",
+    "blob": "blobbuilder",
 
-    "File": "fileapi",
-    "lastModifiedDate": "fileapi",
-    "fileName": "fileapi",
-    "fileSize": "fileapi",
-    "getAsBinary": "fileapi",
-    "getAsDataURL": "fileapi",
-    "getAsText": "fileapi",
+    "worker": "webworkers",
 
-    "Blob": "blobbuilder",
+    "websocket": "websockets",
 
-    "Worker": "webworkers",
-
-    "WebSocket": "websockets",
-
-    "requestAnimationFrame": "requestanimationframe",
-    "mozRequestAnimationFrame": "requestanimationframe",
-    "webkitRequestAnimationFrame": "requestanimationframe",
-    "msRequestAnimationFrame": "requestanimationframe",
+    "requestanimationframe": "requestanimationframe",
+    "mozrequestanimationframe": "requestanimationframe",
+    "webkitrequestanimationframe": "requestanimationframe",
+    "msrequestanimationframe": "requestanimationframe",
 
     "timing": "nav-timing",
 
     "visibilitychange": "pagevisibility",
-    "visibilityState": "pagevisibility",
+    "visibilitystate": "pagevisibility",
 
-    "MutationObserver": "mutationobserver",
+    "mutationobserver": "mutationobserver",
 
-    "ClipboardEvent": "clipboard",
-    "clipboardData": "clipboard",
+    "clipboardevent": "clipboard",
+    "clipboarddata": "clipboard",
 
-    "indexedDB": "indexeddb",
+    "indexeddb": "indexeddb",
 
-    "EventSource": "eventsource",
+    "eventsource": "eventsource",
 
     "now": "high-resolution-time",
 
     "matches": "matchesselector",
 
-    "fullScreen": "fullscreen",
+    "fullscreen": "fullscreen",
 
-    "MessageChannel": "channel-messaging",
+    "messagechannel": "channel-messaging",
 
-    "AnalyserNode": "audio-api",
-    "AudioBuffer": "audio-api",
-    "AudioBufferSourceNode": "audio-api",
-    "AudioDestinationNode": "audio-api",
-    "AudioContext": "audio-api",
-    "AudioListener": "audio-api",
-    "AudioParam": "audio-api",
-    "AudioNode": "audio-api",
+    "analysernode": "audio-api",
+    "audiobuffer": "audio-api",
+    "audiobuffersourcenode": "audio-api",
+    "audiodestinationnode": "audio-api",
+    "audiocontext": "audio-api",
+    "audiolistener": "audio-api",
+    "audioparam": "audio-api",
+    "audionode": "audio-api",
     "audioprocess": "audio-api",
-    "AudioProcessingEvent": "audio-api",
+    "audioprocessingevent": "audio-api",
 
-    "DeviceOrientationEvent": "deviceorientation",
+    "deviceorientationevent": "deviceorientation",
     "deviceorientation": "deviceorientation",
 
     "vibrate": "vibration",
 
-    "RTCConfiguration": "rtcpeerconnection",
-    "RTCPeerConnection": "rtcpeerconnection",
-    "RTCSignalingState": "rtcpeerconnection",
-    "RTCIceGatheringState": "rtcpeerconnection",
-    "RTCSessionDescription": "rtcpeerconnection",
-    "RTCSessionDescriptionCallback": "rtcpeerconnection",
-    "RTCPeerConnectionErrorCallback": "rtcpeerconnection",
+    "rtcconfiguration": "rtcpeerconnection",
+    "rtcpeerconnection": "rtcpeerconnection",
+    "rtcsignalingstate": "rtcpeerconnection",
+    "rtcicegatheringstate": "rtcpeerconnection",
+    "rtcsessiondescription": "rtcpeerconnection",
+    "rtcsessiondescriptioncallback": "rtcpeerconnection",
+    "rtcpeerconnectionerrorcallback": "rtcpeerconnection",
 
-    "querySelector": "http://caniuse.com/#feat=queryselector",
-    "querySelectorAll": "http://caniuse.com/#feat=queryselector",
+    "queryselector": "queryselector",
+    "queryselectorall": "queryselector",
 
     "data-uri": "datauri",
 
@@ -369,10 +364,10 @@ module.exports = {
 
     "mp4": "mpeg4",
 
-    "X-Content-Security-Policy": "contentsecuritypolicy",
-    "X-Webkit-CSP": "contentsecuritypolicy",
+    "x-content-security-policy": "contentsecuritypolicy",
+    "x-webkit-csp": "contentsecuritypolicy",
 
-    "Strict-Transport-Security": "stricttransportsecurity",
+    "strict-transport-security": "stricttransportsecurity",
 
     "jxr": "jpegxr",
     "wdp": "jpegxr"

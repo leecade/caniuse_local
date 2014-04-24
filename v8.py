@@ -171,7 +171,7 @@ class JSApplicationCommand(sublime_plugin.ApplicationCommand):
 		command = self.__class__.__name__[0:-7].lower()
 		ctx.call('global.runCommand', [command, args]);
 
-class HelloWorldCommand(JSTextCommand):
+class CaniuseCommand(JSTextCommand):
 	'''demo'''
 	pass
 

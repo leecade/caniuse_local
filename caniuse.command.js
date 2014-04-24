@@ -55,24 +55,35 @@ module.exports = function(view, edit){
     }
 
     var showStatus = function() {
-        var timeout = true;
         var timer = null;
+        var shower = null;
+        var uid = 0;
         return function(content) {
-            timeout = true;
-            view.erase_status("caniuse");
-            timer && clearTimeout(timer);
-            (function set() {
-                view.set_status("caniuse", content);
-                !timeout && setTimeout(set, 200)
-            })();
+            // for(var i = 0; i< 30;i++){
+            //     view.erase_status("caniuse" + uid);
+            // }
+
+            // TODO, how to keep info on status bar?
+            var id = uid++;
+            // clearTimeout(timer);
+            // clearInterval(shower);
+
+            view.set_status("caniuse" + id, content);
+
+            // var ii = 0;
+
+            // shower = setInterval(function() {
+            //     view.set_status("caniuse" + id, content);
+            // }, 400);
             timer = setTimeout(function() {
-                view.erase_status("caniuse");
-                timeout = true;
-            }, 15000);
+                // shower && clearInterval(shower);
+                view.erase_status("caniuse" + id);
+            }, 30000);
         }
     }();
 
     function adapterQuery(query, data) {
+        query = (query + "").toLowerCase();
         if(adapterQueryData[query]) return adapterQueryData[query];
         for(var key in adapterQueryData) {
             if(~key.indexOf(query)) return adapterQueryData[key];
