@@ -1,5 +1,5 @@
 {
-  "name": "caniuse(offline)",
+  "name": "caniuse",
   "description": "Instantly check compatibility of HTML5, CSS3, SVG",
   "version": "0.1.0",
   "author": {
