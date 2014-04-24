@@ -1,0 +1,29 @@
+Thank you for installing caniuse_local -- a toolkit that can greatly improve your workflow.
+
+Instant, Offline, Non-breaking compatibility check of HTML5, CSS3, SVG, New JS API. 
+
+Watch video:
+
+https://vimeo.com/92709999
+
+http://www.youtube.com/watch?v=Lpe_R35nvk8
+
+==========================
+Try select: `opacity`, Press hotkey and see status bar message.
+==========================
+
+
+******************************
+Remember hotkey:
+
+OSX - [ctrl+c]
+Windows/Linux - [ctrl+alt+c]
+******************************
+
+Any problem, tell me:
+https://github.com/leecade/caniuse_local/issues
+
+
+------------------------------
+Follow me on Twitter: @jsser
+------------------------------

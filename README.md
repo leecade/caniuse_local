@@ -36,7 +36,7 @@ Restart Sublime editor (if required)
 
 Select a keyword then
 
-press the hotkey(default: OSX - `ctrl + c`, Windows/Linux - `ctrl+alt+c`)
+press the hotkey(default: OSX - `ctrl + c`, Windows/Linux - `ctrl + alt + c`)
 
 or
 
@@ -44,7 +44,7 @@ click `Caniuse` item in `Tools` menu
 
 the result will be shown on the status bar.
 
-> You can modif the hotkey like:
+> You can modify the hotkey like:
 > 
 ```
 "keys": ["ctrl+c"], "command": "caniuse"
