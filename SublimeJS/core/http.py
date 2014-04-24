@@ -4,7 +4,7 @@ import threading
 import sublime
 
 from PyV8 import JSObject, JSArray, JSFunction
-from caniuse.v8 import getContext, convert
+from caniuse_local.v8 import getContext, convert
 
 class Http:
 	def request(self, options, callback=None):

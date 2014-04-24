@@ -301,7 +301,7 @@ class JSCore(Context):
 
 	def registerCommand(self, name, commandType):
 		name = name + 'Command'
-		fullName = '<' + commandType + '>caniuse.v8.' + name;
+		fullName = '<' + commandType + '>caniuse_local.v8.' + name;
 		if(fullName not in globals()):
 			if(commandType == 'TextCommand'):
 				globals()[fullName] = type(name, (JSTextCommand,), {})
@@ -329,7 +329,7 @@ class JSCore(Context):
 			sublime.active_window().open_file(__file__)
 			sublime.set_timeout(_reload, 200)
 		else:
-			sublime.set_timeout(lambda:sublime_plugin.reload_plugin('caniuse.v8'),200)
+			sublime.set_timeout(lambda:sublime_plugin.reload_plugin('caniuse_local.v8'),200)
 
 	def md5(self, str):
 		return hashlib.md5(str).hexdigest()

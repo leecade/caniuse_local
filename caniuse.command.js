@@ -16,7 +16,9 @@ module.exports = function(view, edit){
     function getSelContent() {
         var selections = view.sel()[0];
         var text = "";
+        // console.log(selections);
         if(!selections.empty()) {
+            // console.log(view.substr(21));
             var begin = selections.a;
             while(begin++ < selections.b) text += view.substr(begin - 1)
         }
@@ -84,6 +86,8 @@ module.exports = function(view, edit){
     }
 
     var text = getSelContent();
+
+    // console.log(text);
 
     if(!text) return;
 

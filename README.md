@@ -1,4 +1,4 @@
-# caniuse
+# caniuse_local
 
 ![screen](http://dl.ooxx.org/output-mini.gif)
 
@@ -24,12 +24,12 @@ Instant, Offline, Quick, Non-breaking compatibility check  of HTML5, CSS3, SVG, 
 
 - With [Sublime Package Control](http://wbond.net/sublime_packages/package_control):
 
-Run “Package Control: Install Package” command, find and install `caniuse`.
+Run “Package Control: Install Package” command, find and install `caniuse_local`.
 Restart Sublime editor (if required)
 
 - Manually:
 
-Download the lastest [releases](https://github.com/leecade/caniuse/releases) into your packages folder (find "Browse Packages" menu item to open this folder)
+Download the lastest [releases](https://github.com/leecade/caniuse_local/releases) into your packages folder (find "Browse Packages" menu item to open this folder)
 Restart Sublime editor (if required)
 
 ## Usage
@@ -52,7 +52,7 @@ the result will be shown on the status bar.
 
 ## Contribution
 
-Send me [Issues](https://github.com/leecade/caniuse/issues), like:
+Send me [Issues](https://github.com/leecade/caniuse_local/issues), like:
 
 ```
 `perspective-origin` ==> `transforms3d`
@@ -62,9 +62,9 @@ see: http://caniuse.com/#search=transforms3d
 
 ## TODO
 
-- [1.0.TODO](https://github.com/leecade/caniuse/blob/master/1.0.TODO)
+- [1.0.TODO](https://github.com/leecade/caniuse_local/blob/master/1.0.TODO)
 
-- [2.0.TODO](https://github.com/leecade/caniuse/blob/master/2.0.TODO)
+- [2.0.TODO](https://github.com/leecade/caniuse_local/blob/master/2.0.TODO)
 
 ## Thanks
 

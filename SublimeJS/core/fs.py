@@ -5,7 +5,7 @@ import threading
 import os
 
 from PyV8 import JSObject, JSArray, JSFunction
-from caniuse.v8 import getContext, convert
+from caniuse_local.v8 import getContext, convert
 
 class FileSystem:
 	def __args(self, path, options, callback=None):

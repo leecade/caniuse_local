@@ -1,6 +1,10 @@
 {
-  "name": "caniuse",
-  "description": "Instantly check compatibility of HTML5, CSS3, SVG",
+  "name": "caniuse_local",
+  "description": "Instant, Offline, Non-breaking compatibility check of HTML5, CSS3, SVG, New JS API.",
+  "homepage"      : "https://github.com/leecade/caniuse_local",
+  "keywords"      : ["caniuse", "sublime", "fontend", "html5", "css3"],
+  "author"        : "leecade <leecadeg@gmail.com>",
+  "repository"    : {"type": "https", "url": "https://github.com/leecade/caniuse_local.git"},
   "version": "0.1.0",
   "author": {
     "name": "leecade",
