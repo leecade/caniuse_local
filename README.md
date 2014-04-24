@@ -24,7 +24,7 @@ Instant, Offline, Quick, Non-breaking compatibility check  of HTML5, CSS3, SVG, 
 
 - Through [Sublime Package Control](http://wbond.net/sublime_packages/package_control):
 
-Run “Package Control: Install Package” command, find and install `caniuse(offline)`.
+Run “Package Control: Install Package” command, find and install `caniuse`.
 Restart Sublime editor (if required)
 
 - Manually:
