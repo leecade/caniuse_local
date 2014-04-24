@@ -1,4 +1,4 @@
-# Can I use(offline)
+# caniuse
 
 ![screen](http://dl.ooxx.org/output-mini.gif)
 
@@ -22,7 +22,7 @@ Instant, Offline, Quick, Non-breaking compatibility check  of HTML5, CSS3, SVG, 
 
 ## Installation
 
-- Through [Sublime Package Control](http://wbond.net/sublime_packages/package_control):
+- With [Sublime Package Control](http://wbond.net/sublime_packages/package_control):
 
 Run “Package Control: Install Package” command, find and install `caniuse`.
 Restart Sublime editor (if required)
