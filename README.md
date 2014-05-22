@@ -58,6 +58,11 @@ This plugin require pyv8, if auto installed failed try [Manual installation](htt
 
 and load issue see https://github.com/sergeche/emmet-sublime/issues/129
 
+- Skip Pyv8 update
+
+Modify: `Sublime Text 3/Packages/PyV8/[osx-p3]/config.json`
+
+`"skip_update": true`
 
 ## Contribution
 
