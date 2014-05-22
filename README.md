@@ -50,6 +50,15 @@ the result will be shown on the status bar.
 "keys": ["ctrl+c"], "command": "caniuse"
 ```
 
+## Known Issues
+
+- Menu item is greyed
+
+This plugin require pyv8, if auto installed failed try [Manual installation](https://github.com/emmetio/pyv8-binaries#manual-installation)
+
+and load issue see https://github.com/sergeche/emmet-sublime/issues/129
+
+
 ## Contribution
 
 Send me [Issues](https://github.com/leecade/caniuse_local/issues), like:
